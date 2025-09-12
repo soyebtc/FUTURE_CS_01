@@ -1,0 +1,19 @@
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+Date: Fri, 12 Sep 2025 17:39:16 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 1337
+
+{
+  "error": {
+    "message": "Unexpected token '}', ...\"password\":}\" is not valid JSON",
+    "stack": "SyntaxError: Unexpected token '}', ...\"password\":}\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at jsonParser (/home/kali/juice-shop/build/server.js:315:33)\n    at Layer.handle [as handle_request] (/home/kali/juice-shop/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/home/kali/juice-shop/node_modules/express/lib/router/index.js:328:13)\n    at /home/kali/juice-shop/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/home/kali/juice-shop/node_modules/express/lib/router/index.js:346:12)\n    at next (/home/kali/juice-shop/node_modules/express/lib/router/index.js:280:10)\n    at /home/kali/juice-shop/node_modules/body-parser/lib/read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (/home/kali/juice-shop/node_modules/raw-body/index.js:238:16)\n    at done (/home/kali/juice-shop/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/kali/juice-shop/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+  }
+}

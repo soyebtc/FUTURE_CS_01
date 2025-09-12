@@ -1,0 +1,15 @@
+POST /rest/user/login HTTP/1.1
+Host: 192.168.1.30:3000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 61
+Origin: http://192.168.1.30:3000
+Connection: keep-alive
+Referer: http://192.168.1.30:3000/
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; continueCode=aj4QDO4KyOqPJ7j2novp9EQ38gYVAJlGM1wWxalND5reZRLzmXk6BbmzZRb3
+Priority: u=0
+
+{"email":"test@example.com","password":}
