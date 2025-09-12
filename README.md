@@ -1,16 +1,23 @@
-# FUTURE_CS_01 - Task 1 Deliverables
+# FUTURE_CS_01 - Task 1 Report
 
-This repository contains the deliverables for Task 1 of my Future Intern program.
+This repository contains the deliverables for **Task 1** of the Future Intern program.
 
-## Contents
-- **FutureIntern_Task1_LongReport.pdf** – Full detailed report with findings and recommendations
-- **error-handling-request.txt** – Raw HTTP request used to provoke error
-- **error-handling-response.txt** – Raw HTTP server response showing the unhandled error
-- **step-03_server-response.png** – Screenshot evidence of server error
+## 📂 Contents
+- `FutureIntern_Task1_LongReport.pdf` → Full report including findings, screenshots, and recommendations.
+- `error-handling-request.txt` → Raw intercepted request used in the PoC.
+- `error-handling-response.txt` → Raw intercepted response showing server error.
+- `step-03_server-response.png` → Screenshot of the server error (500 Internal Server Error).
 
-## Summary
-I explored input handling and error management in OWASP Juice Shop.  
-I found that malformed JSON requests triggered unhandled exceptions, revealing stack traces.  
-I also documented the issue with the security question dropdown failing under interception.
+## 📝 Summary
+During testing on OWASP Juice Shop:
+1. We broke JSON handling and triggered a `500 Internal Server Error`.
+2. Security question dropdown was blocked during interception and restored after bypass.
+3. Screenshots and logs were documented as evidence.
 
-This repo will serve as evidence of the process and outcomes.
+## 🚀 How to Use
+Clone the repo and open the PDF for the full detailed report:
+
+```bash
+git clone https://github.com/soyebtc/FUTURE_CS_01.git
+cd FUTURE_CS_01
+
