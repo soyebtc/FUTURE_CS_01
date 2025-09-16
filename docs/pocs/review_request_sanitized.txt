@@ -1,0 +1,9 @@
+PUT /rest/products/1/reviews HTTP/1.1
+Host: REDACTED_HOST
+Content-Type: application/json
+Authorization: Bearer REDACTED_TOKEN
+Cookie: REDACTED_COOKIES
+Origin: REDACTED
+Referer: REDACTED
+
+{"message":"INJECT_TEST_20250915_REVIEW","author":"Anonymous"}
